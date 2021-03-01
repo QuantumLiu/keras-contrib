@@ -24,7 +24,7 @@ For instructions on how to install Keras,
 see [the Keras installation page](https://keras.io/#installation).
 
 ```shell
-git clone https://www.github.com/keras-team/keras-contrib.git
+git clone https://github.com/keras-team/keras-contrib.git
 cd keras-contrib
 python setup.py install
 ```
@@ -32,7 +32,7 @@ python setup.py install
 Alternatively, using pip:
 
 ```shell
-sudo pip install git+https://www.github.com/keras-team/keras-contrib.git
+sudo pip install git+https://github.com/keras-team/keras-contrib.git
 ```
 
 to uninstall:
@@ -43,7 +43,7 @@ pip uninstall keras_contrib
 #### Install keras_contrib for tensorflow.keras
 
 ```shell
-git clone https://www.github.com/keras-team/keras-contrib.git
+git clone https://github.com/keras-team/keras-contrib.git
 cd keras-contrib
 python convert_to_tf_keras.py
 USE_TF_KERAS=1 python setup.py install
